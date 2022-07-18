@@ -1,13 +1,95 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Todotemplate{
+  width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top:6px;
+  border-radius: 4px;
+  overflow: hidden;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-title{
+  background: #22b8cf;
+  color: white;
+  height: 4rem;
+  font-size: 1.5rem;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.content{
+  background: white;
+}
+
+.totoinsert{
+  display: flex;
+  background: #495057;
+}
+input{
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: white ;
+ flex: 1;
+}
+
+button{
+  outline: none;
+  border: none;
+
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  transition: 0.1s ;
+
+  
+}
+
+.todolist{
+  min-height: 320px;
+ max-height: 513px;
+ overflow-y: auto;
+
+}
+.checkbox{
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+
+}
+.text{
+  margin-left:0.5rem ;
+  flex: 1;
+}
+.todolistItem{
+padding: 1rem;
+
+display: flex;
+align-items: center;
+
+}
+
+
+.remove{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.item{
+  display: flex;
+  gap: 20px;
+} 
+img{
+  width: 60px;
 }
