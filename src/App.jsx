@@ -24,6 +24,11 @@ const App = () => {
       text: '투두리스트 만들기',
       checked: false,
     },
+      {
+      id: 3,
+      text: '투두리스트 만들기',
+      checked: false,
+    },
   ]);
   const nextId = useRef(4);
   const onInsert = useCallback(
